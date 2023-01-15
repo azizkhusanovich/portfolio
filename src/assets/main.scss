@@ -1,0 +1,12 @@
+@import "./fonts.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #fff;
+  font-family: "Heebo";
+  font-weight: 400;
+  color: #21243d;
+}
