@@ -10,13 +10,13 @@
         >
           <img
             class="w-full h-full object-cover rounded-full"
-            src="@/assets/images/my-image.png"
+            src="@/assets/images/my-image.jpg"
             alt="my image"
           />
         </div>
         <div class="info mt-5 md:text-left md:w-3/5">
           <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl">
-            Hi, I am John, Creative Technologist
+            Hi, I am Aziz Sobirjonov, FrontEnd Developer
           </h1>
           <p class="text-base my-6 md:text-lg">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
