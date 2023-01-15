@@ -20,7 +20,8 @@ const currentTab = ref("Real");
             v-for="(_, tab) in projectsTabName"
             :key="tab"
             @click="currentTab = tab"
-            class="bg-secondary text-white text-lg grow rounded py-2 text-center capitalize border-2 border-secondary duration-300 hover:bg-transparent hover:text-secondary md:text-xl"
+            class="text-secondary bg-white text-lg grow rounded py-2 text-center capitalize border-2 border-secondary duration-300 md:text-xl"
+            :class="{ '!bg-secondary !text-white': currentTab == tab }"
           >
             {{ tab }}
           </button>
