@@ -24,6 +24,7 @@
             veniam consequat sunt nostrud amet.
           </p>
           <button
+            v-if="false"
             class="text-xl py-3 px-6 bg-pink text-white rounded border-2 border-pink duration-300 hover:bg-transparent hover:text-pink"
           >
             Download Resume

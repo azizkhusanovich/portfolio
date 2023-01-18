@@ -24,11 +24,11 @@ watch(isOpen, () => {
       <nav class="nav w-full flex justify-between py-5 relative xs:justify-end">
         <ul
           :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
-          class="w-2/3 bg-brand fixed top-0 left-0 bottom-0 flex flex-col items-center justify-center duration-300 xs:relative xs:bg-transparent xs:flex-row xs:gap-x-4 xs:translate-x-0 xs:w-max"
+          class="w-2/3 bg-brand fixed top-0 left-0 bottom-0 flex flex-col items-center justify-center duration-300 xs:relative xs:bg-transparent xs:flex-row xs:gap-x-4 xs:translate-x-0 xs:w-max z-50"
         >
           <li
             @click="isOpen = false"
-            class="text-lg mb-1 font-medium text-white xs:text-brand"
+            class="text-2xl md:text-xl mb-1 font-medium text-white xs:text-brand"
             v-for="list in menu"
           >
             <RouterLink

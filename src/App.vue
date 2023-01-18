@@ -8,7 +8,9 @@ import FooterApp from "./layouts/FooterApp.vue";
   <main>
     <router-view v-slot="{ Component }">
       <transition name="scale" mode="out-in">
+        <!-- <KeepAlive> -->
         <component :is="Component" />
+        <!-- </KeepAlive> -->
       </transition>
     </router-view>
   </main>

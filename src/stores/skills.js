@@ -15,46 +15,41 @@ export const useSkillsStore = defineStore("skills", () => {
     },
     {
       id: 3,
-      name: "Bootstrap",
+      name: "Bootstrap/Tailwind",
       percent: 80,
     },
     {
       id: 4,
-      name: "Tailwind",
-      percent: 80,
-    },
-    {
-      id: 5,
       name: "Sass/Scss",
       percent: 70,
     },
     {
-      id: 6,
+      id: 5,
       name: "Git/Github/Gitlab",
-      percent: 60,
+      percent: 70,
+    },
+    {
+      id: 6,
+      name: "JavaScript",
+      percent: 85,
     },
     {
       id: 7,
-      name: "JavaScript",
-      percent: 80,
-    },
-    {
-      id: 8,
       name: "TypeScript",
       percent: 30,
     },
     {
-      id: 9,
+      id: 8,
       name: "VueJS",
       percent: 80,
     },
     {
-      id: 10,
+      id: 9,
       name: "Vuex/Pinia",
-      percent: 80,
+      percent: 90,
     },
     {
-      id: 11,
+      id: 10,
       name: "NuxtJS",
       percent: 70,
     },

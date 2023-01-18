@@ -4,7 +4,11 @@
   <footer class="footer text-center pt-10">
     <div class="container">
       <div class="socials flex justify-center gap-x-3 mb-6">
-        <a href="" class="link">
+        <a
+          href="https://www.instagram.com/aziz.khusanovich/"
+          target="_blank"
+          class="link"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -17,7 +21,7 @@
             />
           </svg>
         </a>
-        <a href="" class="link">
+        <a href="https://t.me/azizkhusanovich/" target="_blank" class="link">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 496 512"
@@ -30,7 +34,11 @@
             />
           </svg>
         </a>
-        <a href="" class="link">
+        <a
+          href="https://github.com/azizkhusanovich"
+          target="_blank"
+          class="link"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -43,7 +51,10 @@
             />
           </svg>
         </a>
-        <a href="" class="link"
+        <a
+          href="https://www.linkedin.com/in/aziz-sobirjonov-650366262/"
+          target="_blank"
+          class="link"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
