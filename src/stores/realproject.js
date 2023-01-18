@@ -12,8 +12,8 @@ export const useRealProjectsStore = defineStore("realProjects", () => {
       fullDescription:
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
       image: "work.png",
-      fullpage: "fullpage.png",
       url: "http://www.youtube.com",
+      domen: "Porten.uz",
       usedTechnologies: [
         {
           name: "HTML",
@@ -21,7 +21,7 @@ export const useRealProjectsStore = defineStore("realProjects", () => {
         },
         {
           name: "CSS",
-          color: "8DD0FF",
+          color: "#8DD0FF",
         },
         {
           name: "JavaScript",
@@ -38,8 +38,8 @@ export const useRealProjectsStore = defineStore("realProjects", () => {
       fullDescription:
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
       image: "work.png",
-      fullpage: "fullpage.png",
       url: "http://www.youtube.com",
+      domen: "Porten.uz",
       usedTechnologies: [
         {
           name: "HTML",
@@ -47,7 +47,7 @@ export const useRealProjectsStore = defineStore("realProjects", () => {
         },
         {
           name: "CSS",
-          color: "8DD0FF",
+          color: "#8DD0FF",
         },
         {
           name: "JavaScript",

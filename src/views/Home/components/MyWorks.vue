@@ -7,7 +7,7 @@ import Demo from "./DemoProjects.vue";
 import { ref } from "vue";
 
 const projectsTabName = { Real, Demo };
-const currentTab = ref("Real");
+const currentTab = ref("Demo");
 </script>
 
 <template>
@@ -20,7 +20,8 @@ const currentTab = ref("Real");
             v-for="(_, tab) in projectsTabName"
             :key="tab"
             @click="currentTab = tab"
-            class="bg-secondary text-white text-lg grow rounded py-2 text-center capitalize border-2 border-secondary duration-300 hover:bg-transparent hover:text-secondary md:text-xl"
+            class="text-lg text-secondary grow rounded py-2 text-center capitalize border-2 border-secondary duration-300 hover:bg-transparent md:text-xl"
+            :class="{ 'bg-secondary !text-white': currentTab === tab }"
           >
             {{ tab }}
           </button>
